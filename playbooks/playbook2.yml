@@ -1,0 +1,14 @@
+---
+
+- name: creating user
+  hosts: all
+  tasks:
+   - name: user creating
+     user: 
+        name: aswitha
+        password: test
+        uid: 123
+        comment: "love you abitha"
+        home: /nicky/nacie
+        shell: /bin/jams     
+...

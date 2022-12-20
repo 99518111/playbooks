@@ -1,0 +1,15 @@
+---
+- name: crating user
+  hosts: all
+  tasks:
+    - name: user creating
+      user:
+        name: power
+        password: 1234
+        uid: 1234
+        comment: "welcome"
+        home: /nani/kumar
+        shell: /bin/venky     
+
+
+...

@@ -1,0 +1,28 @@
+---
+- name: install nginx
+  hosts: all
+  tasks:
+    - name: install nginx 
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+    - name: edit file in vani
+      copy: 
+        content: "welcome naveen"
+        dest: /tmp/dir100/vani
+    - name: started 
+      service:
+          name: nginx
+          state: stopped
+    - name: check the connection server1
+      uri:
+        url: http://172.31.31.240
+        status_code: 200
+    - name: check the connction server2
+      uri: 
+       url: http://172.31.25.202
+       status_code: 200      
+                
+                
+...
