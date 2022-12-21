@@ -17,7 +17,7 @@
           password: "{{g}}"
           home: "{{h}}"
           uid: "{{i}}"
-          shell: "{{j}}
+        
                 
 
 ...
