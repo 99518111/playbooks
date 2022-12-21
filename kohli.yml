@@ -1,0 +1,13 @@
+---
+- name: configured software
+  hosts: all
+  vars:
+    - a: git
+    - b: present
+  tasks:
+    - name: git
+      apt:     
+        name: "{{a}}"
+        state: "{{b}}"
+        
+...      

@@ -404,3 +404,195 @@ ansible-playbook playbook5.yml
 clear
 vim playbook10.yml
 ansible-playbook playbook10.yml -b
+clear
+vim playbook10.yml
+lssssss
+ls
+ansible-playbook playbook10.yml -b
+clear
+vim playbook20.yml
+touch file300
+vim playbook20.yml
+ansible-playbook playbook20.yml
+vim playbook20.yml
+ansible-playbook playbook20.yml
+vim playbook20.yml
+ansible-playbook playbook20.yml
+vim playbook20.yml
+clear
+vim playbook20.yml
+ansible-playbook playbook20.yml
+vim playbook20.yml
+ansible-playbook playbook20.yml
+vim playbook20.yml
+ansible-playbook playbook20.yml
+clear
+ls
+ansible all -m file -a 'name=/tmp/dir100/mass state=directory' -b
+vim playbook20.yml
+ansible-playbook playbook20.yml -b
+git add .
+git config user.name "naveen"
+clear
+git config user.name "naveen"
+git init
+git config user.name "naveen"
+git config user.gmail "navi199710@gmail.com"
+git push
+ls
+git add .
+sudo git add .
+clear
+sudo git push
+git remote add origin https://github.com/99518111/playbooks.git
+git push -u origin master
+ls
+git push
+clear
+ls
+vim playbook100
+rm -rf plsybook100
+vim playbook100.yml
+ansible-playbook playbook100.yml
+ansible-playbook playbook100.yml -b
+cler
+clear
+vim playbook100.yml
+ls
+cd dir100
+ls
+mkdir neha
+cd ..
+ls
+cd /tmp
+ls
+cd ..
+ssh 172.31.31.240
+clear
+asible all -m copy 'src=dir100 dest=/tmp' -b
+ansible all -m copy 'src=dir100 dest=/tmp' -b
+ansible all -m copy -a 'src=dir100 dest=/tmp' -b
+ansible all -m copy -a 'src=dir100/neha dest=/tmp' -b
+clear
+ls
+/tmp
+cd /tmp
+ls
+cd ..
+ls
+exit
+clear
+ls
+cd dir100
+ls
+rm -rf neha
+touch neha
+ls
+cd ..
+ansible all -m copy -a 'src=dir100/neha dest=/tmp' -b
+ls
+touch mam
+cleaar
+clear
+vim playbook100.yml
+ansible-playbook playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+clear
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+clear
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+clear
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+clear
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+clear
+ssh 172.31.25.202
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+clear
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+ansible-playbook playbook100.yml -b
+vim playbook100.yml
+clear
+ansible-playbook playbook100.yml -b
+cler
+clear
+vim playbookabitha.yml
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes" -b
+ansible-playbook playbookabitha.yml "a=git b=absent c=no" -b
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=absent c=no" -b
+ansible-playbook playbookabitha.yml --extra-vars "a=tree b=present c=yes" -b
+clear
+vim playbookabitha
+rm -rf playbookabitha
+vim playbookabitha.yml
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/dir100/kajol e=touch" -b
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/kajol e=touch" -b
+ssh 172.31.25.202
+vim playbookabitha.yml
+ansible-playbook playbookabitha.yml --extra-vars "1=naveennani 2=test 3=/bal/balu 4=1234 5=/bin/bobby" -b
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/kajol e=touch 1=naveennani 2=test 3=/bal/balu 4=1234 5=/bin/bobby" -b
+vim playbookabitha.yml
+clear
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/kajol e=touch f=naveennani g=test h=/bal/balu i=1234 j=/bin/bobby" -b
+vim playbookabitha.yml
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/kajol e=touch f=naveennani g=test h=/bal/balu i=1234 j=/bin/bobby" -b
+vim playbookabitha.yml
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/kajol e=touch f=naveennani g=test h=/bal/balu i=1234 j=/bin/bobby" -b
+vim playbookabitha.yml
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/kajol e=touch f=naveennani g=test h=/bal/balu i=1234 j=/bin/bobby" -b
+vim playbookabitha.yml
+ansible-playbook playbookabitha.yml --extra-vars "a=git b=present c=yes d=/tmp/kajol e=touch f=naveennani g=test h=/bal/balu i=12345 j=/bin/bobby" -b
+clear
+ls
+vim kohli.yml
+ansible-playbook kohli.yml
+vim kohli.yml
+ansible-playbook kohli.yml -b
+vim kohli.yml
+ansible-playbook kohli.yml -b
+vim kohli.yml
+ansible-playbook kohli.yml -b
+vim kohli.yml
+clear
+ansible-playbook kohli.yml -b
+vim kohli.yml
+ansible-playbook kohli.yml -b
+vim kohli.yml
+ansible-playbook kohli.yml -b
+vim kohli.yml
+clear
+ansible-playbook kohli.yml -b
+vim kohli.yml
+ansible-playbook kohli.yml -b
+vim kohli.yml
+ansible-playbook kohli.yml -b
+vim kohli.yml
+clear
+ansible-playbook kohli.yml --extra-vars "a=tomcat9 b= present" -b
+ansible-playbook kohli.yml --extra-vars "a=tomcat9 b= absent" -b
+ansible-playbook kohli.yml --extra-vars "a=tomcat9 b=present" -b
+vim kohli.yml
+ansible-playbook kohli.yml --extra-vars "a=tomcat9 b=absent" -b
+clear
+ansible-playbook kohli.yml --extra-vars "a=tomcat9 b=present" -b

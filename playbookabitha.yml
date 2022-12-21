@@ -1,0 +1,23 @@
+---
+- name: install software applicetion
+  hosts: all
+  tasks:
+     - name: install software
+       apt:
+         name: "{{a}}"
+         state: "{{b}}"
+         update_cache: "{{c}}"
+     - name: crate file
+       file:
+          name: "{{d}}"
+          state: "{{e}}"
+     - name: create a user groups
+       user:
+          name: "{{f}}"
+          password: "{{g}}"
+          home: "{{h}}"
+          uid: "{{i}}"
+          shell: "{{j}}"
+                
+
+...
