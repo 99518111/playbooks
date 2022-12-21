@@ -7,20 +7,6 @@
       name: tomcat9
       state: present
       update_cache: yes
-   - name: Install tomcat9-admin
-     apt:
-      name: tomcat9-admin
-      state: present
-      update_cache: no
-   - name: Copy file 
-     copy:
-      src: file250
-      dest: /tmp/dir100/vani
-   - name: Change port of tomcat from 8080 to 9090
-     replace:
-      regexp: 8080
-      replace: 9090
-      path: /etc/tomcat9/server.xml
    
 ...      
 
