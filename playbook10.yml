@@ -21,21 +21,7 @@
       regexp: 8080
       replace: 9090
       path: /etc/tomcat9/server.xml
-   - name: Restart tomcat9
-     service:
-      name: tomcat9
-      state: restarted
-   - name: Pause for 1 mins
-     pause:
-      minutes: 1
-   - name: Check tomcat response on server1
-     uri:
-      url: http://172.31.31.240:9090
-      status_code: 200
-   - name: Check tomcat response on server2
-     uri:
-      url: http://172.31.25.202:9090
-      status_code: 200
+   
 ...      
 
 
